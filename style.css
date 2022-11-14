@@ -1,0 +1,117 @@
+body {
+
+background-image: url("BACKGROUND.jpg");
+background-size: cover;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #968c8ca4; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgba(99, 98, 98, 0.658); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .plate {
+
+    background-color: white;
+    border-radius: 10px;
+    width: 750px;
+    height: 500px;
+    box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    
+    }
+
+    .effect {
+            
+        animation: transitionIn 1.5s;
+    
+    }
+    
+    @keyframes transitionIn {
+    
+    from {
+    
+    opacity: 0;
+    transform: rotateX(-10deg);
+    
+    }
+    
+    to {
+    
+        opacity: 1;
+        transform: rotateX(0deg);
+    
+    }
+    
+    }
+
+
+      .button {
+        
+        border-radius: 50px;
+        background-color: darkgrey;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 325px;
+        border-color: rgba(255, 255, 255, 0);
+        font-family: Nunito;
+        font-weight: bold;
+        margin-top: 150px;
+        transition: background-color 2s ease-out 100ms;
+        transition: color 2s ease-out 100ms;
+        color: black;
+        
+        }
+
+        .button:hover {
+        
+            border-radius: 50px;
+            font-size: 15px;
+            padding: 10px;
+            margin-left: 325px;
+            margin-top: 150px;
+            background-color: rgb(71, 71, 71);
+            border-color: rgba(255, 255, 255, 0);
+            font-family: Nunito;
+            font-weight: bold;
+            color: white;
+            
+            }
+
+            .title {
+        
+                font-size: 30px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                right: 250px;
+                position: absolute;
+                
+            
+            }
+
+            .sub-title {
+        
+                font-size: 15px;
+                font-family: Montserrat;
+                font-weight: 600;    
+                margin-left: 200px;
+                position: absolute;
+                top: 110px;
+                right: 100px;
+                text-align: center;
+
+            }
